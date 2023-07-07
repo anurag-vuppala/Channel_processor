@@ -1,0 +1,8 @@
+Step 1. Unzip The .Zip File 
+Step 2. Open teminal/powershell and navigate to project direct with.[Example "cd "desktop/amg_test/channel_processing]
+Step 3. Run the comment build the cointainer "docker build -t channel-processer ."
+Step 4. Run the command to run the cointainer "docker run -p 8000:8000 channel-processer"
+Step 5. open A browser and enter URL: "http://0.0.0.0:8000"
+Step 6 Check output value{"b"}
+
+NOTE: To insert new  data replace the parameter.txt and channels.txt and Follow Step 3 to 6 again.
